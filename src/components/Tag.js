@@ -4,7 +4,7 @@ import useGif from "../hooks/useGif";
 
 const Tag = () => {
   const [tag, setTag] = useState("car");
-  const { gif, loading, fetchData } = useGif(tag);
+  const { gif, loading, fetchData } = useGif();
 
   return (
     <div className="w-1/2 bg-blue-400 rounded-lg border border-black flex flex-col items-center gap-y-5 mb-[40px]">
